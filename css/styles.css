@@ -1,6 +1,7 @@
-/* ============================================= */
 /*              File imports                      */
-/* ============================================= */
+/*---colors--*/
+/* Button mixin */
+/* Media query mixin */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -344,12 +345,11 @@ template {
   display: none;
 }
 
-/*---colors--*/
 /* ============================================= */
 /*              Base styles                      */
 /* ============================================= */
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #777;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -389,6 +389,95 @@ a {
   padding-left: 20px;
   border-left: 8px solid #58e1c1;
   border-radius: 5px;
+}
+
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.btn[type='submit']:hover {
+  color: #fff;
+  background-color: #fc7051;
+}
+
+.default {
+  background-color: #51ddfc;
+}
+
+.default:hover {
+  color: #777;
+  background-color: #9cecfd;
+}
+
+.error {
+  background-color: #e4757a;
+}
+
+.error:hover {
+  color: #777;
+  background-color: #9cecfd;
+}
+
+.info {
+  background-color: #927bc1;
+}
+
+.info:hover {
+  color: #777;
+  background-color: #9cecfd;
+}
+
+.success {
+  background-color: #63cc82;
+}
+
+.success:hover {
+  color: #777;
+  background-color: #9cecfd;
+}
+
+.warning {
+  background-color: #fd7856;
+}
+
+.warning:hover {
+  color: #777;
+  background-color: #9cecfd;
+}
+
+/* ============================================= */
+/*              Forms                            */
+/* ============================================= */
+.form {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.form .input {
+  display: block;
+  width: 94%;
+  margin: 10px auto 0;
+  border: none;
+  padding: 10px;
+  border-bottom: 5px solid #58e1c1;
+}
+
+.form .hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 /* ============================================= */
@@ -500,65 +589,6 @@ a {
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
-}
-
-/* ============================================= */
-/*              Buttons                          */
-/* ============================================= */
-.btn {
-  margin-top: 15px;
-  width: 100%;
-  color: #fff;
-  border: none;
-  padding: 10px 0;
-  text-transform: uppercase;
-  border-radius: 5px;
-}
-
-.default {
-  background-color: #51ddfc;
-}
-
-.error {
-  background-color: #e4757a;
-}
-
-.info {
-  background-color: #927bc1;
-}
-
-.success {
-  background-color: #63cc82;
-}
-
-.warning {
-  background-color: #fd7856;
-}
-
-/* ============================================= */
-/*              Forms                            */
-/* ============================================= */
-.form {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
-}
-
-.input {
-  display: block;
-  width: 94%;
-  margin: 10px auto 0;
-  border: none;
-  padding: 10px;
-  border-bottom: 5px solid #58e1c1;
-}
-
-.hidden {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
 }
 
 /* ============================================= */
