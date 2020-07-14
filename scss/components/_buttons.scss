@@ -10,25 +10,39 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    &[type='submit']:hover{
+      color: $white;
+    background-color:$complement ;
+    }
   }
-  
-  .default {
+    .default {
     background-color: $color-tertiary;
+    &:hover {
+      @include button-hover; 
+    }
   }
-  
-  .error {
+    .error {
     background-color: #e4757a;
+    &:hover {
+      @include button-hover;
+    }
   }
-  
-  .info {
+    .info {
     background-color: #927bc1;
+    &:hover {
+      @include button-hover;;
+    }
   }
-  
-  .success {
+    .success {
     background-color: #63cc82;
+    &:hover {
+      @include button-hover;;
+    }
   }
-  
-  .warning {
+    .warning {
     background-color: #fd7856;
+    &:hover {
+      @include button-hover;;
+    }
   }
   
