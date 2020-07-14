@@ -1,0 +1,9 @@
+/* Button mixin */
+@mixin button-hover {
+    color:$color-primary;
+    background-color: $color-tertiary-light;
+}
+/* Media query mixin */
+@mixin mediaq {
+
+}
