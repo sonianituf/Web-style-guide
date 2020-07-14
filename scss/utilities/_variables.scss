@@ -1,7 +1,12 @@
 /*---colors--*/
 
 $color-primary: #777;
-$color-secondary: red;
+$color-secondary: #58e1c1;
 $color-tertiary: #51ddfc;
-
+$color-tertiary-light: lighten($color-tertiary, 15%); 
+$complement: complement($color-tertiary); // to be used //
 $white:#fff;
+
+$font-primary: 'Lato', sans-serif;
+
+$break-min: 768px;
