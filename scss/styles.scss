@@ -1,12 +1,9 @@
 
 /*              File imports                      */
 
-@import 'base/index',
-        'components/index',
-        'utilities/index';
-
-
-
+@import 'utilities/index',
+        'base/index',
+        'components/index';
 
 
 /* ============================================= */
@@ -42,7 +39,7 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media (min-width: $break-min) {
 
 .container {
   max-width: 1400px;
