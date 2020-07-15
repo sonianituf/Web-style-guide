@@ -4,26 +4,3 @@
 @import 'utilities/index',
         'base/index',
         'components/index';
-
-
-/* ============================================= */
-/*              Images                           */
-/* ============================================= */
-.img {
-  &-avatar,
-  &-frame,
-  &-logo {
- @include image-disp;
- transition: transform .5s ease-in;
-}
-  &-avatar {
-  max-height: 100%;
-}
-  &-frame {
-  padding: 13px;
-  border: 1px solid #ccc;
-}
-  &:hover{
-  transform: scale(1.1);
-}
-}
