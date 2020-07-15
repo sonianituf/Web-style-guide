@@ -3,6 +3,8 @@
 /* ============================================= */
 
 .container {
+  @include mediaq-br1;
+  @include mediaq-br2;
     padding: 0 10px;
   }
   
@@ -14,10 +16,13 @@
   
   [class^=col] {
     margin-top: 10px;
-    flex-basis: 100%;
+    // flex-basis: 100%;
     min-height: 25px;
     padding: 10px;
     border-radius: 5px;
+  }
+  [class^=col], .card {
+    flex-basis: 100%;
   }
   
   .theme.col-1 {
@@ -66,8 +71,4 @@
   
   .theme.col-12 {
     background-color: #80e8d1;
-  }
-  
-  .card {
-    flex-basis: 100%;
   }
