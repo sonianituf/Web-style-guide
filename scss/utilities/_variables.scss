@@ -4,9 +4,12 @@ $color-primary: #777;
 $color-secondary: #58e1c1;
 $color-tertiary: #51ddfc;
 $color-tertiary-light: lighten($color-tertiary, 15%); 
-$complement: complement($color-tertiary); // to be used //
+$complement: complement($color-tertiary); 
 $white:#fff;
 
+/*---font--*/
 $font-primary: 'Lato', sans-serif;
 
-$break-min: 768px;
+/*---media Q--*/
+$break-1: 768px;
+$break-2: 1240px;
