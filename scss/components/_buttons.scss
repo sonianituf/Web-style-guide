@@ -30,19 +30,19 @@
     .info {
     background-color: #927bc1;
     &:hover {
-      @include button-hover;;
+      @include button-hover;
     }
   }
     .success {
     background-color: #63cc82;
     &:hover {
-      @include button-hover;;
+      @include button-hover;
     }
   }
     .warning {
     background-color: #fd7856;
     &:hover {
-      @include button-hover;;
+      @include button-hover;
     }
   }
   
