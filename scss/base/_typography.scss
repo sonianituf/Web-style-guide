@@ -1,7 +1,6 @@
 /* ============================================= */
 /*              Base styles                      */
 /* ============================================= */
-
 * {
     font-family: $font-primary;
     color: $color-primary;
@@ -15,8 +14,7 @@
   a {
     text-decoration: none;
   }
-  
-  
+    
   /* ============================================= */
   /*              Typography                       */
   /* ============================================= */
@@ -25,8 +23,7 @@
     color: $color-secondary;
     margin-left: 10px;
   }
-  
-  .headline-secondary {
+    .headline-secondary {
     font-weight: 300;
     color: $color-primary;
   }
@@ -35,8 +32,7 @@
     color: $color-tertiary;
     font-weight: 700;
   }
-  
-  .blockquote {
+    .blockquote {
     font-size: 1.5em;
     font-weight: 300;
     font-style: italic;
